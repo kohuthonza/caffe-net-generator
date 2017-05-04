@@ -52,8 +52,8 @@ layer {
   convolution_param {
     bias_term: __BIAS:true__
     kernel_size: __K_SIZE:3__
-    num_output: __CHANNELS:64__
-    stride: __POOL_STRIDE:1__
+    num_output: __CHANNELS1:64__
+    stride: __POOL_STRIDE:2__
     pad: __PAD:0__
     group: __GROUP:1__
     weight_filler {
@@ -112,7 +112,7 @@ layer {
   convolution_param {
     bias_term: __BIAS:true__
     kernel_size: __K_SIZE:3__
-    num_output: __CHANNELS:64__
+    num_output: __CHANNELS2:64__
     stride: 1
     pad: __PAD:0__
     group: __GROUP:1__
