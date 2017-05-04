@@ -42,7 +42,7 @@ layer {
     kernel_size: 1
     num_output: __CHANNELS2:64__
     stride: 1
-    pad: __PAD:0__
+    pad: 0
     group: __GROUP:1__
     weight_filler {
       type: "__W_FILLER:xavier__"
