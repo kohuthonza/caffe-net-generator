@@ -1,7 +1,7 @@
 train_net: "net_train_val.prototxt"
 test_net: "net_train_val.prototxt"
-test_iter: 19
-test_interval: 25000
+test_iter: 0
+test_interval: 1000
 base_lr: 0.0005
 lr_policy: "step"
 gamma: 0.5
@@ -13,4 +13,4 @@ weight_decay: 0.0005
 snapshot: 25000
 snapshot_prefix: "net_snapshot"
 solver_mode: GPU
-debug_info: true
+debug_info: false
